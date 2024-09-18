@@ -1,0 +1,15 @@
+body {
+    background: linear-gradient(to right, #BCBCFF, #4D2FA7, #1A1543);
+}
+
+.social {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 41px; 
+}
+
+.fa-github, .fa-linkedin, .fa-square-x-twitter, .fa-envelope { 
+    color: #FFFFFF;
+    font-size: 45px;
+}
