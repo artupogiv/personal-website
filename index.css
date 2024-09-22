@@ -3,16 +3,53 @@
 body {
     background: linear-gradient(to right, #BCBCFF, #4D2FA7, #1A1543);
     font-family: "Anek Tamil", sans-serif;
+    color: var(--main-color);
+}
+
+:root {
+    --main-color: #FFFFFF;
+}
+
+.wrapper {
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding: 0 5rem 0;
+}
+
+.sticky-header {
+    display: grid;
+    padding: 5% 0;
+}
+
+.overflow-content {
+    padding: 5% 0;
+}
+
+.navbar {
+    list-style-type: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+a:hover {
+    font-weight: bolder;
 }
 
 .social {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    gap: 41px; 
+    gap: 1.5rem;
 }
 
 .fa-github, .fa-linkedin, .fa-square-x-twitter, .fa-envelope { 
+    color: #E7E3FC61;
+    font-size: 2rem;
+}
+
+.fa-github:hover, .fa-linkedin:hover, .fa-square-x-twitter:hover, .fa-envelope:hover { 
     color: #FFFFFF;
-    font-size: 45px;
 }
