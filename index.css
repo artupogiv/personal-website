@@ -4,6 +4,7 @@ body {
     background: linear-gradient(to right, #BCBCFF, #4D2FA7, #1A1543);
     font-family: "Anek Tamil", sans-serif;
     color: var(--main-color);
+    margin: 0 0 0 0;
 }
 
 :root {
@@ -14,14 +15,24 @@ body {
     display: flex;
     /* justify-content: space-evenly; */
     padding: 0 5rem 0;
+    height: 100vh;
+    gap: 2rem;
+    justify-content: center;
 }
 
 .sticky-header {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 45%;
     padding: 5% 0;
 }
 
 .overflow-content {
+    width: 45%;
+    height: 100vh;
     padding: 5% 0;
 }
 
@@ -42,7 +53,7 @@ a:hover {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .fa-github, .fa-linkedin, .fa-square-x-twitter, .fa-envelope { 
