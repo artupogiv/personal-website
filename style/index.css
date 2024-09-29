@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100..800&display=swap');
+
+body {
+    background: linear-gradient(to right, #BCBCFF, #4D2FA7, #1A1543);
+    font-family: "Anek Tamil", sans-serif;
+    color: var(--main-color);
+    margin: 0 0 0 0;
+    /* overflow: hidden; */
+}
+
+:root {
+    --main-color: #FFFFFF;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem 0;
+    height: 100vh;
+    gap: 0.5rem;
+}
+
+.wrapper-main {
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0.5rem;
+    width: 20%;
+    /* flex-direction: flex-end; */
+    /* position: static;
+    z-index: -1; */
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+li>a {
+    font-size: 1.25rem;
+}
+
+.sticky-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 0;
+    width: 25%;
+    padding: 0 3rem 0 2rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.overflow-content>.navbar>ul {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-list {
+    list-style-type: none;
+}
+
+.overflow-content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100vh;
+    padding: 2rem 0;
+    gap: 1rem;
+    overflow-y: auto;
+    overflow: hidden;
+    scrollbar-width: none;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#about,
+#experience,
+#projects {
+    padding-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+a:hover {
+    font-weight: bolder;
+    color: #1A1539;
+}
+
+li {
+    list-style-type: none;
+}
+
+.social {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.fa-github, .fa-linkedin, .fa-square-x-twitter, .fa-envelope { 
+    color: #E7E3FC61;
+    font-size: 2rem;
+}
+
+.fa-github:hover, .fa-linkedin:hover, .fa-square-x-twitter:hover, .fa-envelope:hover { 
+    color: #FFFFFF;
+}
+
+.work-experience {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.timeline,
+.showcase {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 0.75rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 15rem;
+    padding: 0.75rem;
+    gap: 1.5rem;
+}
+
+.card:hover {
+    cursor: pointer;
+    border: 0.75px solid #6b56cf61;
+    border-radius: 1rem;
+    background-color: #2c1e7861;
+    
+    /* margin: 1.5rem; */
+}
+
+.summary>h3 {
+    margin: 0;
+}
+
+.year,
+.thumbnail {
+    display: flex;
+    align-content: flex-start;
+    width: 15%;
+}
+
+.thumbnail>img {
+    display: flex;
+    width: 8rem;
+    height: 5rem;
+    border-radius: 1rem;
+}
+
+.summary {
+    width: 80%;
+}
+
+.resume>a {
+    font-size: 1.25rem;
+}
+
+
+@media screen and (max-width: 799px) {
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        padding: 0 1rem 0;
+        overflow: auto;
+    }
+
+    .wrapper-main {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: flex-start; */
+        overflow: auto;
+    }
+
+    .sticky-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 2rem 1rem;
+        gap: 1rem;
+        
+    }
+
+    .sticky-header>#home>.navbar {
+        display: none;
+    }
+
+    .overflow-content {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    #about,
+    #experience,
+    #projects {
+    padding: 0;
+    margin-bottom: 2rem;
+    }
+
+    .navbar {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar>ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .hidden {
+        visibility: unset;
+    }
+
+    .footer {
+        width: auto;
+    }
+}
+
+    

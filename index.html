@@ -5,122 +5,183 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vigo Putra</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./style/index.css">
     <meta name="description" content="Personal website of Vigo Putra">
     <meta name="author" content="Vigo Putra">
     <meta name="keywords" content="Vigo Putra, artupogiv, frontend developer, web developer">
 </head>
 <body>
     <div class="wrapper">
-        <header class="sticky-header">
-            <div>
-                <h1>
-                    <a href="/">vigo putra</a>
-                </h1>
-                <h2>frontend developer</h2>
-                <p>learning, pushing, exploring digital world</p>
-                <nav class="sidebar">
+        <div class="wrapper-main">
+            <header class="sticky-header">
+                <section id="home">
+                    <h1>
+                        <a href="/">vigo putra</a>
+                    </h1>
+                    <h2>web developer</h2>
+                    <p>learning, pushing, exploring digital world</p>
+                    <nav class="navbar">
+                        <ul>
+                            <li class="sidebar-list"><a href="#about">about</a></li>
+                            <li class="sidebar-list"><a href="#experience">experience</a></li>
+                            <li class="sidebar-list"><a href="#projects">projects</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <ul class="social">
+                    <li><a href="https://github.com/artupogiv" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/artupogiv/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/artupogiv" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                    <li><a href="mailto:artupogiv@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+                </ul>
+            </header>
+            <main id="content" class="overflow-content">
+                <nav class="navbar">
                     <ul>
-                        <li class="navbar"><a href="#about">about</a></li>
-                        <li class="navbar"><a href="#experience">experience</a></li>
-                        <li class="navbar"><a href="#projects">projects</a></li>
+                        <li class="sidebar-list">
+                            <div class="hidden"><a href="#about">about</a></div>
+                            <section id="about">
+                                <div class="about-me">
+                                    <p>hi, i'm vigo putra</p>
+                                    <p>i'm person who enthusiast with tech world that currently based in batam with 8 years of
+                                        hands-on experience as a helpdesk in telecommunications network company. i am also
+                                        someone who can work in teams and quite adaptive person. currently, i am interested in
+                                        developing a career in software and website development.</p>
+                                    <p>now i'm learning about <a href="#projects">html, css, and javascript</a> for build some projects that i can showcase in my portfolio.</p>
+                                </div>
+                            </section>
+                        </li>
+                        <li class="sidebar-list">
+                            <div class="hidden"><a href="#experience">experience</a></div>
+                            <section id="experience">
+                                <div class="work-experience">
+                                    <ol class="timeline">
+                                        <li class="timeline-list">
+                                            <div class="card exp proj">
+                                                <span class="year">2016 - present</span>
+                                                <div class="summary">
+                                                    <h3>
+                                                        <a href="https://telkomakses.co.id/" target="_blank">helpdesk engineer &#x2022 telkom akses</a>
+                                                    </h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non tincidunt dolor. Etiam eget orci magna. Mauris vestibulum velit dui, ac congue dui eleifend ut. Curabitur vitae ex massa. Proin pharetra nulla felis, nec egestas mi volutpat sit amet. Nam feugiat velit vel pulvinar vestibulum. Praesent pharetra nisl vitae felis faucibus, vel imperdiet tortor mollis. Etiam tempus sapien ac dapibus porta. Aliquam vestibulum mi sem, in ornare quam varius sit amet.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- <li class="timeline-list">
+                                            <div class="card exp proj">
+                                                <span class="year">2024 - 2024</span>
+                                                <div class="summary">
+                                                    <h3>
+                                                        <a href="#">job position &#x2022 company</a>
+                                                    </h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non tincidunt dolor. Etiam eget orci magna. Mauris vestibulum velit dui, ac congue dui eleifend ut. Curabitur vitae ex massa. Proin pharetra nulla felis, nec egestas mi volutpat sit amet. Nam feugiat velit vel pulvinar vestibulum. Praesent pharetra nisl vitae felis faucibus, vel imperdiet tortor mollis. Etiam tempus sapien ac dapibus porta. Aliquam vestibulum mi sem, in ornare quam varius sit amet.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="timeline-list">
+                                            <div class="card exp proj">
+                                                <span class="year">2024 - 2024</span>
+                                                <div class="summary">
+                                                    <h3>
+                                                        <a href="#">job position &#x2022 company</a>
+                                                    </h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non tincidunt dolor. Etiam eget orci magna. Mauris vestibulum velit dui, ac congue dui eleifend ut. Curabitur vitae ex massa. Proin pharetra nulla felis, nec egestas mi volutpat sit amet. Nam feugiat velit vel pulvinar vestibulum. Praesent pharetra nisl vitae felis faucibus, vel imperdiet tortor mollis. Etiam tempus sapien ac dapibus porta. Aliquam vestibulum mi sem, in ornare quam varius sit amet.</p>
+                                                </div>
+                                            </div>
+                                        </li> -->
+                                    </ol>
+                                    <div class="resume">
+                                        <a href="./assets/docs/resume.pdf" target="_blank">view full résumé</a>
+                                    </div>
+                                </div>
+                            </section>
+                        </li>
+                        <li class="sidebar-list">
+                            <div class="hidden"><a href="#projects">projects</a></div>
+                            <section id="projects">
+                                <div class="overflow-projects">
+                                    <ol class="showcase">
+                                        <li class="showcase-list">
+                                            <div class="card exp proj">
+                                                <div class="thumbnail">
+                                                    <img src="./assets/img/dummy1.png" alt="dummy">
+                                                </div>
+                                                <div class="summary">
+                                                    <h3>
+                                                        <a href="#">1st project</a>
+                                                    </h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non tincidunt dolor. Etiam eget orci magna. Mauris vestibulum velit dui, ac congue dui eleifend ut. Curabitur vitae ex massa. Proin pharetra nulla felis, nec egestas mi volutpat sit amet. Nam feugiat velit vel pulvinar vestibulum. Praesent pharetra nisl vitae felis faucibus, vel imperdiet tortor mollis. Etiam tempus sapien ac dapibus porta. Aliquam vestibulum mi sem, in ornare quam varius sit amet.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="showcase-list">
+                                            <div class="card exp proj">
+                                                <div class="thumbnail">
+                                                    <img src="./assets/img/Home.jpg" alt="dummy">
+                                                </div>
+                                                <div class="summary">
+                                                    <h3>
+                                                        <a href="#">2nd project</a>
+                                                    </h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non tincidunt dolor. Etiam eget orci magna. Mauris vestibulum velit dui, ac congue dui eleifend ut. Curabitur vitae ex massa. Proin pharetra nulla felis, nec egestas mi volutpat sit amet. Nam feugiat velit vel pulvinar vestibulum. Praesent pharetra nisl vitae felis faucibus, vel imperdiet tortor mollis. Etiam tempus sapien ac dapibus porta. Aliquam vestibulum mi sem, in ornare quam varius sit amet.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="showcase-list">
+                                            <div class="card exp proj">
+                                                <div class="thumbnail">
+                                                    <img src="./assets/img/dummy.jpg" alt="dummy">
+                                                </div>
+                                                <div class="summary">
+                                                    <h3>
+                                                        <a href="#">3rd project</a>
+                                                    </h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non tincidunt dolor. Etiam eget orci magna. Mauris vestibulum velit dui, ac congue dui eleifend ut. Curabitur vitae ex massa. Proin pharetra nulla felis, nec egestas mi volutpat sit amet. Nam feugiat velit vel pulvinar vestibulum. Praesent pharetra nisl vitae felis faucibus, vel imperdiet tortor mollis. Etiam tempus sapien ac dapibus porta. Aliquam vestibulum mi sem, in ornare quam varius sit amet.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </section>
+                        </li>
                     </ul>
                 </nav>
-            </div>
-            <ul class="social">
-                <li><a href="https://github.com/artupogiv" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/artupogiv/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li><a href="https://twitter.com/artupogiv" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a></li>
-                <li><a href="mailto:artupogiv@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
-            </ul>
-        </header>
-        <main id="content" class="overflow-content">
-            <section id="about">
-                <div class="about-me">
-                    <p>hi, i'm vigo putra </p>
-                    <p>vigo learn ...</p>
-                    <p>... tech stack such as <a href="#projects">HTML</a>, <a href="#projects">CSS</a>, and <a href="#projects">JavaScript</a></p>
-                </div>
-            </section>
-            <section id="experience">
-                <div class="work-experience">
-                    <ol class="timeline">
-                        <li class="timeline-list">
-                            <div>
-                                <header>year y - year x</header>
-                                <div>
-                                    <h3>
-                                        <a href="_/">job position</a>
-                                    </h3>
-                                    <p>job detail ...</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-list">
-                            <div>
-                                <header>year y - year x</header>
-                                <div>
-                                    <h3>
-                                        <a href="_/">job position</a>
-                                    </h3>
-                                    <p>job detail ...</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-list">
-                            <div>
-                                <header>year y - year x</header>
-                                <div>
-                                    <h3>
-                                        <a href="_/">job position</a>
-                                    </h3>
-                                    <p>job detail ...</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
-                    <div class="resume">
-                        <a href="_/">view full résumé</a>
-                    </div>
-                </div>
-            </section>
-            <section id="projects">
-                <div class="overflow-projects">
-                    <ol class="showcase">
-                        <li class="showcase-list">
-                            <div>
-                                <div>
-                                    <h3>
-                                        <a href="_/">1st project</a>
-                                    </h3>
-                                    <p>project detail ...</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="showcase-list">
-                            <div>
-                                <div>
-                                    <h3>
-                                        <a href="_/">1st project</a>
-                                    </h3>
-                                    <p>project detail ...</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="showcase-list">
-                            <div>
-                                <div>
-                                    <h3>
-                                        <a href="_/">1st project</a>
-                                    </h3>
-                                    <p>project detail ...</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ol>
-                </div>
-            </section>
-        </main>
+                
+            </main>
+        </div>
+        <footer id="footer" class="footer">&copy; 2024 Vigo Putra</footer>
     </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    // Function to handle the scroll behavior
+        function handleScroll() {
+            const wrapper = document.querySelector('.wrapper');
+            const overflowContent = document.querySelector('.overflow-content');
+            
+            wrapper.addEventListener('wheel', function(event) {
+                event.preventDefault();
+                overflowContent.scrollTop += event.deltaY;  
+            });
+        }
+
+        // Function to check media query and apply scroll behavior
+        function checkMediaQuery() {
+            if (window.matchMedia("(min-width: 799px)").matches) {
+                handleScroll();
+            } else {
+                // Remove the event listener if the screen width is 800px or less
+                const wrapper = document.querySelector('.wrapper');
+                wrapper.removeEventListener('wheel', handleScroll);
+            }
+        }
+
+        // Initial check
+        checkMediaQuery();
+
+        // Listen for window resize events
+        window.addEventListener('resize', checkMediaQuery);
+    });
+    </script>
 </body>
 </html>
