@@ -6,7 +6,7 @@
 
 <h2>table of contents</h2>
 <ul>
-    <li>#home</li>
+    <li><a href="https://github.com/artupogiv/personal-website#about-the-project">about the project</a></li>
     <li>#experience</li>
     <li>#projects</li>
 </ul>  
