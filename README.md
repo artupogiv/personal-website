@@ -34,4 +34,5 @@
 <h2>references</h2>
 <ul>
     <li>personal websites: <a href="https://brittanychiang.com">brittani chiang</a>, <a href="https://mhaidarhanif.com/">m haidar hanif</a></li>
+    <li>docs: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">mdn css</a>, <a href="stackoverflow.com">stackoverflow</a>, <a href="https://ai.belajarlagi.id">ai - belajar lagi</a></li>
 </ul>
