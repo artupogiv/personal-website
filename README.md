@@ -30,3 +30,8 @@
     <li>google font & font awesome: for font and icons</li>
     <li>vercel: for website hosting</li>
 </ul>
+
+<h2>references</h2>
+<ul>
+    <li>personal websites: <a href="https://brittanychiang.com">brittani chiang</a>, <a href="https://mhaidarhanif.com/">m haidar hanif</a></li>
+</ul>
