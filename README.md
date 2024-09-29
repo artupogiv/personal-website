@@ -6,9 +6,9 @@
 
 <h2>table of contents</h2>
 <ul>
-    <li><a href="https://github.com/artupogiv/personal-website#about-the-project">about the project</a></li>
-    <li><a href="">features</a></li>
-    <li><a href="">technologies used</a></li>
+    <li><a href="https://github.com/artupogiv/personal-website/blob/master/README.md#about-the-project">about the project</a></li>
+    <li><a href="https://github.com/artupogiv/personal-website/blob/master/README.md#features">features</a></li>
+    <li><a href="https://github.com/artupogiv/personal-website/blob/master/README.md#technologies-used">technologies used</a></li>
 </ul>
 
 <h2>about the project</h2>
