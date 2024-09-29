@@ -273,7 +273,9 @@ li {
 
     .thumbnail>img {
         display: flex;
-        flex-grow: 1;
+        border-radius: 0.1rem;
+        width: 3rem;
+        height: 1.25rem;
     }
 
     .hidden {
